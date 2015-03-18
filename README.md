@@ -1,5 +1,5 @@
 # bomb
-A cache busting middleware for express.
+A frontend cache-busting static middleware for express.
 
 - Acts as a static middleware
 - Caches file contents in RAM
