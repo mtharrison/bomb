@@ -11,12 +11,13 @@ A cache busting middleware for express.
 
 ###Example
 
-Let's say we want to serve all the files in our public directory:
+Let's say we want to serve all the css, js and HTML files in our public directory:
 
     ├── index.js
         └── public
             ├── example.css
             ├── example.js
+            ├── other.txt
             ├── example.png
             └── other
                 └── index.html
