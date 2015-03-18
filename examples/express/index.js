@@ -5,7 +5,7 @@ var Path = require('path');
 var app = Express();
 
 var box = new Bomb.Box({
-    url: '/public',
+    url: '/serve',
     path: Path.join(__dirname, 'public'),
     regex: /\.(css|js|html)/
 });
