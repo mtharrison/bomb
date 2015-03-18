@@ -1,5 +1,5 @@
 {
-  "name": "busta",
+  "name": "bomb",
   "version": "1.0.0",
   "description": "A cache busting middleware for express",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mtharrison/busta.git"
+    "url": "https://github.com/mtharrison/bomb.git"
   },
   "author": "Matt Harrison <hi@matt-harrison.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mtharrison/busta/issues"
+    "url": "https://github.com/mtharrison/bomb/issues"
   },
-  "homepage": "https://github.com/mtharrison/busta",
+  "homepage": "https://github.com/mtharrison/bomb",
   "devDependencies": {
     "express": "^4.12.3"
   },
