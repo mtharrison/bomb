@@ -21,15 +21,15 @@ Let's say we want to serve all the files in our public directory:
             └── other
                 └── index.html
                 
-We can create a new busta box and use it as a middleware:
+We can create a new bomb box and use it as a middleware:
 
     var Express = require('express');
-    var Busta = require('busta');
+    var Bomb = require('bomb');
     var Path = require('path');
     
     var app = Express();
     
-    var box = new Busta.Box({
+    var box = new Bomb.Box({
         url: '/public',                           // use this as the URL root
         path: Path.join(__dirname, 'public'),     // look in this directory for files
         regex: /\.(css|js|html)/                  // only serve files that match regex
