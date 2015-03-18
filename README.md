@@ -1,9 +1,13 @@
-# busta
+# bomb
 A cache busting middleware for express.
 
 - Acts as a static middleware
 - Caches file contents in RAM
 - Serves on a hashed filename route too
+
+###Install 
+
+`npm install --save bomb`
 
 ###Example
 
