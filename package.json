@@ -1,0 +1,31 @@
+{
+  "name": "busta",
+  "version": "1.0.0",
+  "description": "A cache busting middleware for express",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtharrison/busta.git"
+  },
+  "author": "Matt Harrison <hi@matt-harrison.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtharrison/busta/issues"
+  },
+  "homepage": "https://github.com/mtharrison/busta",
+  "devDependencies": {
+    "express": "^4.12.3"
+  },
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "joi": "^6.0.8",
+    "mime": "^1.3.4",
+    "wrench": "^1.5.8"
+  }
+}
