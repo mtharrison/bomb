@@ -37,9 +37,9 @@ We can create a new busta box and use it as a middleware:
   
 We can now request the files on the natural or hashed URLS:
 
-- /public/example.css
-- /public/example-4591dd5c9fd5aab8f5d7df6ac939441c.css
-- /public/example.js
-- /public/example-00e062122c3306198fdbe5d3ddd01fe0.js
-- /public/other/index.html
-- /public/other/index-33c805c6162941684b6fc618d0e42ab8.html
+- `/public/example.css`
+- `/public/example-4591dd5c9fd5aab8f5d7df6ac939441c.css`
+- `/public/example.js`
+- `/public/example-00e062122c3306198fdbe5d3ddd01fe0.js`
+- `/public/other/index.html`
+- `/public/other/index-33c805c6162941684b6fc618d0e42ab8.html`
