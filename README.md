@@ -34,6 +34,7 @@ We can create a new bomb box and use it as a middleware:
         url: '/public',                           // use this as the URL root
         path: Path.join(__dirname, 'public'),     // look in this directory for files
         regex: /\.(css|js|html)/                  // only serve files that match regex
+        sendOptions: {}                           // options for the `send` module
     });
     
     app.use(box);
@@ -49,6 +50,10 @@ We can now request the files on the natural or hashed URLS:
 - `/public/other/index.html`
 - `/public/other/index-33c805c6162941684b6fc618d0e42ab8.html`
 
-To get the hashed URL from a natural one, just call `box.url(url)`:
+To get the hashed URL from a natural one, just call `box.getHashedUrl(url)`:
 
-`box.url('/public/example.css') === '/public/example-4591dd5c9fd5aab8f5d7df6ac939441c.css'`
+`box.getHashedUrl('/public/example.css') === '/public/example-4591dd5c9fd5aab8f5d7df6ac939441c.css'`
+
+To get the natural URL from a hashed one, just call `box.getNaturalUrl(url)`:
+
+`box.getNaturalUrl('/public/example-4591dd5c9fd5aab8f5d7df6ac939441c.css') === '/public/example.css'`

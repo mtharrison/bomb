@@ -8,6 +8,7 @@ var box = new Bomb.Box({
     url: '/serve',
     path: Path.join(__dirname, 'public'),
     regex: /\.(css|js|html)/
+    sendOptions: {}
 });
 
 app.use(box);
