@@ -2,7 +2,6 @@
 A frontend cache-busting static middleware for express.
 
 - Acts as a static middleware
-- Caches file contents in RAM
 - Serves on a hashed filename route too
 
 ###Install 
